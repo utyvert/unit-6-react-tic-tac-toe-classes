@@ -1,17 +1,28 @@
-reactTutorial
-=============
+#React-Tic-Tac-Toe
 
-An intro tutorial on ReactJS, focused on building a Tic Tac Toe game.
+##Summary
+React-Tic-Tac-Toe
 
 ### Getting Started:
 
-1. Clone the repository.
-1. If you don't have nodeJS installed on your computer, you can install it here:
-<a href='http://nodejs.org/'>nodeJS</a>
-1. From the main directory, install the necessary npm packages:
-```
+1. Fork this repo
+  - click on fork button on the top right of the page ![Alt text](http://u.cubeupload.com/azai91/howtofork.png)
+  - click on your handle to fork to your repo
+
+1. Clone the repo
+  - copy and paste github url from the right side of the ![Alt text](http://u.cubeupload.com/azai91/howtoclone.png)
+  - type in the following line into your command line and insert your copies url as shown below:
+  ````
+  git clone *github url
+  ````
+1. Install gulp by the following command:
+````
+npm install -g
+````
+1. Install the necessary depencies for gulp by typing in the following command
+````
 npm install
-```
+````
 1. After install has finished, from the main directory, run gulp:
 ```
 gulp
@@ -26,9 +37,6 @@ gulp
 
 
 ### Steps:
-
-Note: If you get stuck, you can look to the 'steps' directory to see solutions! Or look at the docs here:
-<a href='http://facebook.github.io/react/docs/getting-started.html'> ReactJS Documentation </a>
 
 1. Build a react component called Box, render that component to the page.
 
@@ -51,7 +59,7 @@ Note: If you get stuck, you can look to the 'steps' directory to see solutions! 
 1. Pull the state out of each Box and into the higher level Row component.
   1. Don't forget to pass each child Box a key property.
 
-1. Rig up the event handling so that clicks on a Box component change the 
+1. Rig up the event handling so that clicks on a Box component change the
   state on their parent Row component.
 
 1. Now create a Board component that renders three Row components.
@@ -59,11 +67,3 @@ Note: If you get stuck, you can look to the 'steps' directory to see solutions! 
 1. Pull the state out of the Row components and into the Board component.
 
 1. Rig up event handling so clicks on Box's bubble up to the Board itself.
-
-
-###Todos:
-
-1. Clean up gulpfile so that it reports informative errors.
-  1. This may require using browserify with gulp-shell instead of with gulp-react.
-1. Add comments to solution code, so user can understand why choices were made.
-1. Add more steps with fluxJS
