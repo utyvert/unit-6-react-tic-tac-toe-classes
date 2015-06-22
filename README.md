@@ -15,17 +15,13 @@ React-Tic-Tac-Toe
   ````
   git clone *github url
   ````
-1. Install gulp by the following command:
-````
-npm install -g
-````
 1. Install the necessary depencies for gulp by typing in the following command
 ````
 npm install
 ````
-1. After install has finished, from the main directory, run gulp:
+1. After install has finished, from the main directory, run gulp with the following command:
 ```
-gulp
+npm start
 ```
 1. Open index.html in your browser of choice.
 
