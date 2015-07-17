@@ -80,3 +80,8 @@ npm start
 1. Pull the state out of the Row components and into the Board component.
 
 1. Rig up event handling so clicks on Box's bubble up to the Board itself.
+
+
+#Useful Links
+[React for people who know just enough jQuery to get by](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
+[React Docs](https://facebook.github.io/react/docs/component-api.html)
