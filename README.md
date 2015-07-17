@@ -1,4 +1,4 @@
-#React-Tic-Tac-Toe
+#Unit 6 Skill Builder React-Tic-Tac-Toe
 
 ##Summary
 React-Tic-Tac-Toe
@@ -15,6 +15,23 @@ React-Tic-Tac-Toe
   ````
   git clone *github url
   ````
+
+1. Install gulp by the following command:
+````
+npm install -g gulp
+````
+#Gulp
+![](gulp-js.jpg)
+
+[Gulp](http://gulpjs.com/) is a task runner for javascript that we use to automate things. 
+Gulp can do tons of things to make your life easier as a developer. One of the biggest things that we use gulp for is putting all our javascript files into one that way, we only load that one file in our html page. We do this via a tool called [Browserify](http://browserify.org/).
+Gulp can do a lot more than this though, we're using it to take React Components, which are written in [JSX Syntax](https://facebook.github.io/jsx/) and convert it into regular javscript. We do this via something called [reactify](https://github.com/andreypopp/reactify).
+
+When gulp finishes running it takes all of this javascript and puts it in a file `build/bundle.js`. If you take a look in there later you'll see not only your own code, but the code for React as well!
+
+**One Warning**
+  Gulp runs in the terminal, if it hits an error while compiling (maybe a syntax error) that error will appear in the terminal and gulp will not create the `bundle.js` file. **Keep an eye on the terminal!**
+
 1. Install the necessary depencies for gulp by typing in the following command
 ````
 npm install
@@ -63,3 +80,8 @@ npm start
 1. Pull the state out of the Row components and into the Board component.
 
 1. Rig up event handling so clicks on Box's bubble up to the Board itself.
+
+
+#Useful Links
+[React for people who know just enough jQuery to get by](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
+[React Docs](https://facebook.github.io/react/docs/component-api.html)
