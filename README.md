@@ -24,25 +24,25 @@ npm install -g gulp
 ![](gulp-js.jpg)
 
 [Gulp](http://gulpjs.com/) is a task runner for javascript that we use to automate things. 
-Gulp can do tons of things to make your life easier as a developer. One of the biggest things that we use gulp for is putting all our javascript files into one that way, we only load that one file in our html page. We do this via a tool called [Browserify](http://browserify.org/).
-Gulp can do a lot more than this though, we're using it to take React Components, which are written in [JSX Syntax](https://facebook.github.io/jsx/) and convert it into regular javscript. We do this via something called [reactify](https://github.com/andreypopp/reactify).
+Gulp can do tons of things to make your life easier as a developer. One of the main purposes of gulp is compiling all our javascript files into one; that way, we only load that one file into our html page. We do this via a tool called [Browserify](http://browserify.org/).
+Gulp can do a lot more than this though: we're using it to take React Components, which are written in [JSX Syntax](https://facebook.github.io/jsx/) and convert it into regular javscript. We do this via something called [reactify](https://github.com/andreypopp/reactify).
 
 When gulp finishes running it takes all of this javascript and puts it in a file `build/bundle.js`. If you take a look in there later you'll see not only your own code, but the code for React as well!
 
-**One Warning**
-  Gulp runs in the terminal, if it hits an error while compiling (maybe a syntax error) that error will appear in the terminal and gulp will not create the `bundle.js` file. **Keep an eye on the terminal!**
+**One Warning:**
+  Gulp runs in the terminal, so if it hits an error while compiling (maybe a syntax error) that error will appear in the terminal and gulp will not create the `bundle.js` file. **Keep an eye on the terminal!**
 
-1. Install the necessary depencies for gulp by typing in the following command
+1. Install the necessary depencies for gulp by typing in the following command:
 ````
 npm install
 ````
-1. After install has finished, from the main directory, run gulp with the following command:
+1. After the install has finished, from the main directory, run gulp with the following command:
 ```
 npm start
 ```
 1. Open index.html in your browser of choice.
 
-1. Follow the steps below to build Tic Tac Toe in the file 'src/app.jsx'
+1. Follow the steps below to build Tic-Tac-Toe in the file 'src/app.jsx'
 
 1. Your changes to app.jsx will auto rebuild your application.
 
@@ -53,7 +53,7 @@ npm start
 
 1. Build a react component called Box, render that component to the page.
 
-1. Give Box a property that dictates what text it renders, render an 'X'.
+1. Give Box a property that dictates what text it renders and render an 'X'.
 
 1. Give Box some style! Make it a button with height 100px and width 100px.
 1. Have Box render text based on its state.
