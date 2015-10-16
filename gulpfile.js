@@ -18,6 +18,7 @@ gulp.task('browserify', function() {
         var updateStart = Date.now();
         console.log('Updating!');
         watcher.bundle() // Create new bundle that uses the cache for high performance
+        .on('error', function(err) { console.error('ERROR BUNDLING - Check your syntax in app.jsx!'); })
         .pipe(source('bundle.js'))
     // This is where you add uglifying etc.
         .pipe(gulp.dest('./build/'));
