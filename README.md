@@ -12,7 +12,7 @@ render: function() {
 ```
 Using JSX, we can instead do this:
 ```javascript
-render: function() {
+render() {
   return (
     <div id="board">
       <button className="btn">New Colors!</button>
