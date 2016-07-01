@@ -105,3 +105,6 @@ There are no tests for this challenge. Determine if the app works properly by us
 [React for people who know just enough jQuery to get by](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
 
 [React Docs](https://facebook.github.io/react/docs/component-api.html)
+
+[ES6
+Classes](https://facebook.github.io/react/docs/reusable-components.html#es6-classes)
