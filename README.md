@@ -42,11 +42,11 @@ When gulp finishes running it takes all of this JavaScript and puts it in a file
 **One Warning:**
   Gulp runs in the terminal, so if it hits an error while compiling (maybe a syntax error) that error will appear in the terminal and gulp will not create the `bundle.js` file. **Keep an eye on the terminal!**
 
-1. Install the necessary depencies for gulp by typing in the following command:
+Install the necessary depencies for gulp by typing in the following command:
 ````
 npm install
 ````
-1. After the install has finished, from the main directory, run gulp with the following command:
+After the install has finished, from the main directory, run gulp with the following command:
 ```
 npm start
 ```
