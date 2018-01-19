@@ -102,7 +102,7 @@ There are no tests for this challenge. Determine if the app works properly by us
 - Fetch the `unit-6-react-calendar` branch from the unit-project-slack repo and refactor your calendar using react.
 
 ## Useful Links
-[React for people who know just enough jQuery to get by](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
+[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
 [React Docs](https://facebook.github.io/react/docs/component-api.html)
 
