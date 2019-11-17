@@ -1,10 +1,10 @@
 {
   "name": "unit-6SB-react-tic-tac-toe",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "reactTutorial =============",
-  "main": "gulpfile.js",
   "scripts": {
     "start": "node_modules/.bin/gulp",
+    "start2": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "jest": {
@@ -13,27 +13,27 @@
       "<rootDir>/node_modules/react"
     ]
   },
-  "author": "",
+  "author": "Phillip Troutman",
   "license": "ISC",
   "dependencies": {
-    "browserify": "^10.2.4",
-    "gulp": "^3.9.0",
-    "gulp-notify": "^2.2.0",
-    "react": "^0.14",
-    "react-dom": "^0.14.0",
-    "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.2.2"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.10.4",
-    "babel-preset-es2015": "^6.1.2",
-    "babel-preset-react": "^6.1.2",
-    "babelify": "^7.2.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.5",
     "eslint": "^2.13.1",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.10.0",
     "eslint-plugin-jsx-a11y": "^1.5.3",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint-plugin-react": "^5.2.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }

@@ -3,5 +3,8 @@
     "installedESLint": true,
     "plugins": [
         "react"
-    ]
+    ],
+    "rules": {
+        "react/prefer-stateless-function": [0]
+    }
 }
