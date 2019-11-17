@@ -1,16 +1,10 @@
 {
-  "name": "unit-6SB-react-tic-tac-toe",
+  "name": "unit-6-react-tic-tac-toe",
   "version": "2.0.0",
-  "description": "reactTutorial =============",
+  "description": "Unit 6 React",
   "scripts": {
     "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "jest": {
-    "scriptPreprocessor": "test/preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react"
-    ]
   },
   "author": "Phillip Troutman",
   "license": "ISC",
