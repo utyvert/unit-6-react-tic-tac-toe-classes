@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import { render } from 'react-dom'
+import React, { Component } from 'react';
+import { render } from 'react-dom';
 
 class App extends Component {
-    render() {
-      return (
+  render() {
+    return (
       <div>
         <h1>Tic Tac Toe</h1>
       </div>
-      )
-    }
+    );
+  }
 }
 
-render(<App />, document.getElementById('content'));
+render(<App />, document.querySelector('#root'));
