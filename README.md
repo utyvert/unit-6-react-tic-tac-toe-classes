@@ -25,7 +25,7 @@ This looks like the HTML we know and love. It's much more readable and intuitive
 ## Learning Goals:
 - Utilize React one-way data flow by passing down props
 - Update state from child components
-- Use JSX and Gulp
+- Use JSX and Webpack
 
 ## Getting Started:
 
