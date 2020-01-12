@@ -20,7 +20,7 @@ render() {
   );
 }
 ```
-This looks like the HTML we know and love. It's much more readable and intuitive. JSX is not built into the browser. It needs to be converted, or **compiled**, into plain JavaScript. To do this we'll use Gulp.
+This looks like the HTML we know and love. It's much more readable and intuitive. JSX is not built into the browser. It needs to be converted, or **compiled**, into plain JavaScript. To do this we'll use Webpack.
 
 ## Learning Goals:
 - Utilize React one-way data flow by passing down props
