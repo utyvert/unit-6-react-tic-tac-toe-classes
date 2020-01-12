@@ -40,7 +40,7 @@ Ultimately, these are good processes to start to understand now. However, if you
 __Warning:__
   Webpack runs in the terminal, so if it hits an error while compiling (maybe a syntax error) that error will appear in the terminal and webpack will not create the `bundle.js` file. **Keep an eye on the terminal!**
 
-Install the necessary decencies for gulp by typing in the following command:
+Install the necessary decencies for Webpack by typing in the following command:
 ````
 npm install
 ````
