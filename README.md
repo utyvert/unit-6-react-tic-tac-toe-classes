@@ -31,7 +31,7 @@ This looks like the HTML we know and love. It's much more readable and intuitive
 
 
 ### Webpack
-![webpack](webpack.jpeg)
+![webpack](./docs/assets/images/webpack.jpeg)
 
 [Webpack](https://webpack.js.org/) is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles. One of the main jobs we are using Webpack for is compiling all our JavaScript files into one; that way, we only load that one file into our html page. Webpack can do a lot more than this though: we're using it to take React Components, which are written in [JSX Syntax](https://facebook.github.io/jsx/) and convert it into regular JavaScript. We do this via these things called loaders.
 
