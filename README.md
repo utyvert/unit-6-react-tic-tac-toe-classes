@@ -1,12 +1,12 @@
 # Unit 6 React-Tic-Tac-Toe
 
 ## Summary
-For this challenge we'll build a tic-tac-toe game. This will require some more advanced use of ReactJS and its features.
+For this challenge we'll build a [tic-tac-toe](https://en.wikipedia.org/wiki/Tic-tac-toe) game. This will require some more advanced use of ReactJS and its features.
 
-**There is a better way to create React elements.** Rather than calling `React.createElement` a bunch of times, most React developers use something called [JSX](https://facebook.github.io/react/docs/jsx-in-depth.html). This is a *JavaScript syntax extension* that looks very similar to plain HTML. For example, remember when we did this:
+**There is a better way to create React elements.** Rather than calling `React.createElement` a bunch of times, most React developers use something called [JSX](https://facebook.github.io/react/docs/jsx-in-depth.html). This is a *JavaScript syntax extension* that looks very similar to plain HTML. For example, without JSX we would need to do this:
 ```javascript
 render: function() {
-  var button = React.createElement('button', { className: 'btn' }, ['New ', 'Colors!']);
+  const button = React.createElement('button', { className: 'btn' }, ['New ', 'Colors!']);
   return React.createElement('div', { id: 'board' }, button);
 }
 ```
@@ -20,7 +20,7 @@ render() {
   );
 }
 ```
-This looks like the HTML we know and love. It's much more readable and intuitive. JSX is not built into the browser. It needs to be converted, or **compiled**, into plain JavaScript. To do this we'll use Webpack.
+This looks like the HTML we know and love. It's much more readable and intuitive. JSX is not able to be read directly in the browser. It needs to be converted, or **compiled**, into plain JavaScript. To do this we'll use Webpack.
 
 ## Learning Goals:
 - Utilize React one-way data flow by passing down props
@@ -118,7 +118,6 @@ This makes it so the resulting code for you component is concise and and clear.
 * Clearly separates your concerns. This is important when you're separating your application into container and presentational components.
 
 #### Cons
-* No way to retain internal state.
 * No access to component lifecycle methods (ie ComponentDidMount).
 
 ### Container vs Presentational Components
