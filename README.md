@@ -97,9 +97,11 @@ There are no tests for this challenge. Determine if the app works properly by us
 
 2. Write some ES6. Webpack is converting all ES6 to ES5 so browser support is NOT an issue!
 
-3.  Make your game turn-based, i.e. it'll acknowledge X's turn and O's turn. Instead of just toggling between X and O, have the first click turn the box to an X, the second click turn its box to an O, etc. This will create a more fluid UX.
+3. Refactor your tic-tac-toe game using [React Hooks](https://reactjs.org/docs/hooks-intro.html) and make all components functional rather than class-based.
 
-4. Fetch the `unit-6-react-calendar` branch from the unit-project-slack repo and refactor your calendar using react.
+4.  Make your game turn-based, i.e. it'll acknowledge X's turn and O's turn. Instead of just toggling between X and O, have the first click turn the box to an X, the second click turn its box to an O, etc. This will create a more fluid UX.
+
+5. Fetch the `unit-6-react-calendar` branch from the unit-project-slack repo and refactor your calendar using react.
 
 ## React Overview
 
