@@ -122,6 +122,9 @@ This makes it so the resulting code for you component is concise and and clear.
 #### Cons
 * No access to component lifecycle methods (ie ComponentDidMount).
 
+### Hooks
+[Hooks](https://reactjs.org/docs/hooks-intro.html) were introduced with React version 16.8 to give functional components abilities that previously only class components had, most notably the ability to hold state and to replicate the functionality of lifecycle methods. They have not replaced class components, but were intended to be gradually adopted and integrated into existing React codebases - as such, they are not yet the standard, and you will most likely see some combination of both approaches used in the wild.
+
 ### Container vs Presentational Components
 
 A common design pattern to follow when creating React components is to separate them into container and presentational components.
@@ -129,6 +132,8 @@ A common design pattern to follow when creating React components is to separate 
 They do not actually render any DOM markup themselves, but instead use presentational components to do so.
 **Presentational** components concern themselves with how things look. They have no knowledge of state or how data is being mutated.
 Instead, their only job is to take in data (in the form of props) and render DOM markup. 
+
+An important thing to note is that this pattern is most closely associated with code written using a combination of class components and stateless functional components - it is not typical to use in conjunction with hooks.
 
 For a more in depth explanation, take a look at [Dan Abramov's blog post](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) on the subject. 
 
