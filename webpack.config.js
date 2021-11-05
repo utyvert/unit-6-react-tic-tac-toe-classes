@@ -23,12 +23,14 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
     }),
-    new CopyPlugin([
-      { from: './src/style.css' },
-    ]),
+    new CopyPlugin({
+      patterns: [{ from: './src/style.css' }],
+    }),
   ],
   devServer: {
-    contentBase: './dist',
+    static: {
+      directory: path.join(__dirname, './dist'),
+    },
   },
   devtool: 'eval-source-map',
 };
