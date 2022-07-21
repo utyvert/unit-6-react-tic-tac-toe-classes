@@ -101,7 +101,7 @@ There are no tests for this challenge. Determine if the app works properly by us
 
 4.  Make your game turn-based, i.e. it'll acknowledge X's turn and O's turn. Instead of just toggling between X and O, have the first click turn the box to an X, the second click turn its box to an O, etc. This will create a more fluid UX.
 
-5. Fetch the `unit-6-react-calendar` branch from the unit-project-slack repo and refactor your calendar using react.
+5. Create a new branch on your copy of the calendar skillbuilder the previous unit, and refactor your calendar using React.
 
 ## React Overview
 
