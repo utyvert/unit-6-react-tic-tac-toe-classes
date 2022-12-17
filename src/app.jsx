@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Box from './components/Box.jsx';
+import Board from './components/Board.jsx';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='AppDiv'>
         <h1>Tic Tac Toe</h1>
-        <Box letter='x' />
+        <Board />
       </div>
     );
   }

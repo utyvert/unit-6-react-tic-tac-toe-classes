@@ -2,6 +2,19 @@ body {
   margin: 0;
 }
 
+* {
+  font-family: 'Rubik Gemstones', cursive;
+
+}
+
+.AppDiv {
+  padding-top: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   padding: 0 2.5%;
 }
@@ -9,5 +22,23 @@ body {
 .box {
   width: 100px;
   height: 100px;
-  border: 1px solid black;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 2px 0px 4px black; */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
